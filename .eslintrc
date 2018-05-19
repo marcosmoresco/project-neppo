@@ -1,0 +1,21 @@
+{
+    "globals": {
+        "angular": false,
+        "require": true
+    },
+    "env": {
+        "browser": true,
+        "node": true
+    },	
+    "rules": {
+    	"strict": [2, "global"],
+    	"indent": [2, 2],
+    	"camelcase": [2, {"properties": "always"}],
+    	"no-bitwise": 2,
+    	"curly": 2,
+    	"semi": 2,
+    	"no-use-before-define" : 2,
+    	"no-unused-vars": 2,
+    	"no-unused-expressions": 2	
+    }
+}

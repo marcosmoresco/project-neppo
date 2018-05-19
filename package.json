@@ -1,0 +1,39 @@
+{
+  "name": "project-neppo",
+  "version": "1.0.0",
+  "description": "Project Test",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development && babel lib -d dist && NODE_ENV=development nodemon lib/app.js --exec babel-node",
+    "prod": "webpack --mode production"
+  },
+  "author": "Marcos Moresco",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "6.26.0",
+    "babel-loader": "7.1.4",
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-2": "^6.18.0",
+    "css-loader": "0.28.11",
+    "json-loader": "0.5.7",
+    "style-loader": "0.20.3",
+    "webpack": "4.1.1",
+    "webpack-cli": "2.0.12",
+    "webpack-dev-server": "3.1.1",
+    "clean-webpack-plugin": "0.1.10",
+    "copy-webpack-plugin": "4.5.1",
+    "restify": "^4.1.1",
+    "log4js": "^0.6.38",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "angular": "1.6.4",
+    "angular-animate": "1.6.4",
+    "angular-resource": "1.6.4",
+    "angular-route": "1.6.4",
+    "angular-sanitize": "1.6.4",
+    "angular-translate": "2.11.1",
+    "jquery": "3.1.0"
+  }
+}
